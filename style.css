@@ -316,6 +316,12 @@ button {
   font-weight: 800;
   align-items: center;
   background: linear-gradient(90deg, #33bbfd, #5561ff);
+  transition: 0.5s;
+}
+
+button:hover {
+  background: linear-gradient(180deg, #33bbfd, #5561ff);
+  padding: 20px 40px;
 }
 
 .btn {
@@ -429,6 +435,7 @@ button {
   .container2 {
     height: 100vh;
     overflow: hidden;
+    padding-bottom: 5em;
   }
 
   .cards {
@@ -437,7 +444,13 @@ button {
     align-items: center;
   }
 
-  .container2 p {
+  .container2 > h2 {
+    font-size: 40px;
+    margin-top: 2em;
+  }
+
+  .container2 > p {
+    font-size: 30px;
     margin-bottom: 3em;
   }
 
@@ -449,8 +462,8 @@ button {
 
   .container3 {
     margin-top: 0;
-    height: 200vh;
     background: #d9d9d9;
+    color: white;
   }
 
   .cards2 {
@@ -460,13 +473,32 @@ button {
     gap: 15px;
   }
 
+  .card4 .custom-price {
+    font-size: 30px !important;
+    margin: 0 1em;
+  }
+
+  .card4 span {
+    font-size: 40px !important;
+  }
+
+  .card4 h3 {
+    font-size: 20px;
+  }
+
   .card4 {
     padding: 0 5px;
     height: 100vh;
   }
 
+  .cards img {
+    width: 350px;
+    height: 250px;
+  }
+
   .container3 > p {
-    font-size: 30px;
+    font-size: 20px;
+    margin-bottom: 3em;
   }
 
   .card4 h2 {
@@ -560,7 +592,7 @@ button {
     width: 50%;
   }
 
-  .container5 form {
+  form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -569,6 +601,7 @@ button {
   .footer-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 15em;
   }
 
