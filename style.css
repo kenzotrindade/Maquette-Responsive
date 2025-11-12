@@ -17,6 +17,7 @@
   margin-top: 1em;
   text-decoration: none;
   color: white;
+  font-weight: 800;
 }
 
 .container {
@@ -27,6 +28,11 @@
   min-height: 85vh;
   padding-bottom: 50px;
   clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+}
+
+.cards img:hover {
+  opacity: 0.5;
+  transition: 0.3s;
 }
 
 .container a {
@@ -69,6 +75,12 @@
   text-decoration: none;
 }
 
+#nav-btn:hover {
+  background: linear-gradient(135deg, #33bbfd, #5561ff);
+  color: white;
+  transition: 0.3s;
+}
+
 .container h1 {
   font-weight: 800;
   font-size: 35px;
@@ -93,6 +105,22 @@
   font-weight: 800;
   font-size: 20px;
   text-align: center;
+}
+
+#start-btn:hover {
+  background: linear-gradient(135deg, #33bbfd, #5561ff);
+  color: white;
+  transition: 0.3s;
+}
+
+.arrows:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.bottom-image img:hover {
+  opacity: 0.5;
+  transition: 0.3s;
 }
 
 .container2 {
@@ -167,6 +195,13 @@ p {
   font-size: 20px;
   text-align: center;
   margin: 0 50px;
+}
+
+.card4 a:hover {
+  border: none;
+  background: linear-gradient(135deg, #33bbfd, #5561ff);
+  color: white;
+  transition: 0.5s;
 }
 
 .card4 i {
@@ -297,12 +332,14 @@ p {
   margin-left: 1em;
 }
 
-.container5 form input {
+.container5 form input,
+textarea {
   width: 99%;
   height: 50px;
   border: 3px solid black;
   border-radius: 30px;
   margin: 1em 0;
+  padding: 1em;
 }
 
 #message {
@@ -420,6 +457,7 @@ button:hover {
     border: 1px solid;
     border-radius: 30px;
     padding: 0 20px;
+    transition: 0.3s;
   }
 
   #sub-menu li a {
@@ -602,7 +640,8 @@ button:hover {
     margin-bottom: 2em;
   }
 
-  .container5 form input {
+  .container5 form input,
+  textarea {
     width: 50%;
   }
 
