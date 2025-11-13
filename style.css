@@ -316,6 +316,58 @@ p {
   margin-bottom: 50px;
 }
 
+.slider-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+input[name="slider"] {
+  display: none;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+#s1:checked ~ .slider-wrapper .slide:nth-child(1),
+#s2:checked ~ .slider-wrapper .slide:nth-child(2),
+#s3:checked ~ .slider-wrapper .slide:nth-child(3) {
+  opacity: 1;
+  transform: translateX(0);
+  position: relative;
+  z-index: 2;
+}
+
+.arrows {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.arrows label {
+  cursor: pointer;
+  display: flex;
+}
+
+.arrows img {
+  width: auto;
+  height: auto;
+  transition: 0.3s;
+}
+
+.arrows img:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
 .container4 {
   background: #fafafa;
   display: flex;
@@ -370,13 +422,6 @@ p {
 
 #star {
   margin-bottom: 2em;
-}
-
-.arrows {
-  display: flex;
-  justify-content: space-between;
-  gap: 30vh;
-  margin-bottom: 3em;
 }
 
 .container5 {

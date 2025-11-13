@@ -251,70 +251,101 @@
 
     <section class="container4">
       <h2>What our clients say</h2>
-
       <h3>Real feedback from real users</h3>
 
-      <div id="up">
-        <img src="img/apostrophe_up.png" alt="" class="apostrophe_up" />
-      </div>
+      <!-- Radios pour le slider -->
+      <input type="radio" name="slider" id="s1" checked />
+      <input type="radio" name="slider" id="s2" />
+      <input type="radio" name="slider" id="s3" />
 
-      <p>
-        "Switching to Cloud Sphere was the best descision we made for our online
-        store. The migration process was seamless, and since then, our site has
-        been running faster than ever. Their support team is incredibly
-        responsive, solving any issues in no time."
-      </p>
+      <div class="slider-wrapper">
+        <!-- Slide 1 -->
+        <div class="slide">
+          <div id="up">
+            <img src="img/apostrophe_up.png" alt="" class="apostrophe_up" />
+          </div>
 
-      <div id="down">
-        <img src="img/apostrophe_down.png" alt="" class="apostrophe_down" />
-      </div>
+          <p>
+            "Switching to Cloud Sphere was the best decision we made for our
+            online store. The migration process was seamless, and since then,
+            our site has been running faster than ever. Their support team is
+            incredibly responsive, solving any issues in no time."
+          </p>
 
-      <div class="profil">
-        <div class="pfp"></div>
+          <div id="down">
+            <img src="img/apostrophe_down.png" alt="" class="apostrophe_down" />
+          </div>
 
-        <div class="profil-desc">
-          <h2>Sarah J.</h2>
-          <h3>E-Commerce Buisness Owner</h3>
+          <div class="profil">
+            <div class="pfp"></div>
+            <div class="profil-desc">
+              <h2>Sarah J.</h2>
+              <h3>E-Commerce Business Owner</h3>
+              <div id="star"><img src="img/star.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
 
-          <div id="star">
-            <img src="img/star.png" alt="" />
+        <!-- Slide 2 -->
+        <div class="slide">
+          <div id="up">
+            <img src="img/apostrophe_up.png" alt="" class="apostrophe_up" />
+          </div>
+
+          <p>
+            "Cloud Sphere transformed our website's reliability. We've seen a
+            50% boost in uptime and our clients love the speed. Fantastic
+            service!"
+          </p>
+
+          <div id="down">
+            <img src="img/apostrophe_down.png" alt="" class="apostrophe_down" />
+          </div>
+
+          <div class="profil">
+            <div class="pfp"></div>
+            <div class="profil-desc">
+              <h2>Michael T.</h2>
+              <h3>Startup Founder</h3>
+              <div id="star"><img src="img/star.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+          <div id="up">
+            <img src="img/apostrophe_up.png" alt="" class="apostrophe_up" />
+          </div>
+
+          <p>
+            "The best hosting platform we've ever used. Smooth scaling and
+            superb support — Cloud Sphere truly delivers on its promises."
+          </p>
+
+          <div id="down">
+            <img src="img/apostrophe_down.png" alt="" class="apostrophe_down" />
+          </div>
+
+          <div class="profil">
+            <div class="pfp"></div>
+            <div class="profil-desc">
+              <h2>Emma R.</h2>
+              <h3>Marketing Manager</h3>
+              <div id="star"><img src="img/star.png" alt="" /></div>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="arrows">
-        <img src="img/left_arrow.png" alt="" class="left-arrow" />
-
-        <img src="img/right_arrow.png" alt="" class="right-arrow" />
+        <label for="s3">
+          <img src="img/left_arrow.png" alt="Previous" class="left-arrow" />
+        </label>
+        <label for="s2">
+          <img src="img/right_arrow.png" alt="Next" class="right-arrow" />
+        </label>
       </div>
-    </section>
-
-    <section class="container5">
-      <h2>Contact Us</h2>
-
-      <h3>Get in touch today</h3>
-
-      <form action="/">
-        <label for="name">Full Name</label>
-        <input type="text" id="name" />
-
-        <label for="mail">Email Address</label>
-        <input type="email" id="mail" />
-
-        <label for="message">Your Message</label>
-        <textarea name="message" id="message"></textarea>
-
-        <div class="btn">
-          <button type="submit">Send Message</button>
-        </div>
-
-        <p>
-          ill out the form below with your details and <br />
-          inquiry. Our team will respond promptly to <br />
-          assist you with any questions or support <br />
-          you need.
-        </p>
-      </form>
     </section>
 
     <section class="container6">
