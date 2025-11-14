@@ -41,7 +41,7 @@
 
 .cards img:hover {
   opacity: 0.5;
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -58,7 +58,7 @@
   color: white;
   font-size: 22px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
   display: block;
 }
 
@@ -89,7 +89,7 @@
   display: block;
   padding: 10px 15px;
   border-radius: 8px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   text-decoration: none;
   color: white;
   font-weight: 800;
@@ -98,7 +98,7 @@
 #sub-menu li a:hover {
   opacity: 0.5;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .logo {
@@ -125,7 +125,7 @@
 #nav-btn:hover {
   background: linear-gradient(135deg, #33bbfd, #5561ff);
   color: white;
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
@@ -156,26 +156,26 @@
 #start-btn:hover {
   background: linear-gradient(135deg, #33bbfd, #5561ff);
   color: white;
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
   transform: scale(1.1);
 }
 
 .left-arrow:hover {
   opacity: 0.5;
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
 .right-arrow:hover {
   opacity: 0.5;
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
 .bottom-image img:hover {
   opacity: 0.5;
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -228,7 +228,7 @@ p {
   padding: 0 30px;
   padding-bottom: 50px;
   margin-bottom: 30px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .card4 span {
@@ -331,7 +331,6 @@ input[name="slider"] {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  transition: opacity 0.5s ease;
 }
 
 #s1:checked ~ .slider-wrapper .slide:nth-child(1),
@@ -355,7 +354,7 @@ input[name="slider"] {
 .arrows img {
   width: auto;
   height: auto;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .arrows img:hover {
@@ -526,7 +525,7 @@ button:hover {
 .container6 a:hover {
   cursor: pointer;
   opacity: 0.5;
-  transition: 0.3s;
+  transition: 0.5s;
   transform: scale(1.1);
 }
 

@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <header class="container">
+    <header class="container" id="home">
       <nav class="navbar" id="nav">
         <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" id="hamburger-btn">
@@ -21,12 +21,12 @@
         </label>
 
         <ul id="sub-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#aboutus">About us</a></li>
+          <li><a href="#contact">Support</a></li>
+          <li><a href="#support">Contact</a></li>
         </ul>
 
         <div class="logo">
@@ -54,7 +54,7 @@
       <a href="#" id="start-btn">Start Hosting Today</a>
     </header>
 
-    <section class="container2">
+    <section class="container2" id="features">
       <h2>Why Choose Us?</h2>
 
       <p>Key features that set us apart</p>
@@ -97,7 +97,7 @@
       </div>
     </section>
 
-    <section class="container3">
+    <section class="container3" id="pricing">
       <h2>Hosting plans</h2>
 
       <p>Choose the plan that fits your needs</p>
@@ -249,7 +249,7 @@
       </div>
     </section>
 
-    <section class="container4">
+    <section class="container4" id="aboutus">
       <h2>What our clients say</h2>
       <h3>Real feedback from real users</h3>
 
@@ -320,7 +320,35 @@
       </div>
     </section>
 
-    <section class="container6">
+    <section class="container5" id="contact">
+      <h2>Contact Us</h2>
+
+      <h3>Get in touch today</h3>
+
+      <form action="">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" />
+
+        <label for="mail">Email Address</label>
+        <input type="email" id="mail" />
+
+        <label for="message">Your Message</label>
+        <textarea name="message" id="message"></textarea>
+
+        <div class="btn">
+          <button type="submit">Send Message</button>
+        </div>
+
+        <p>
+          ill out the form below with your details and <br />
+          inquiry. Our team will respond promptly to <br />
+          assist you with any questions or support <br />
+          you need.
+        </p>
+      </form>
+    </section>
+
+    <section class="container6" id="support">
       <div class="footer-nav">
         <h2>Cloud Sphere</h2>
 
